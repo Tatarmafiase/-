@@ -1,0 +1,16 @@
+public class testAuthor {
+    public static void main(String[] args){
+        Author a1 = new Author( n: "ildar", e "ildar@mail.ru", g: '6');
+        System.out.println("Author is" +a1.getName());
+        + ", email:" +a1.getEmail()
+        +", gender:" +a1.getGender());
+        Author a2 = new Author(n: "jeka",e: "jeka@mail.ru", g: '8')
+        System.out.println("Author is" +a2.getName());
+        + ", email:" +a2.getEmail()
+                +", gender:" +a2.getGender());
+        Author a3 = new Author(n: "tata",e: "tata@mail.ru", g: '4')
+        System.out.println("Author is" +a3.getName());
+        + ", email:" +a3.getEmail()
+                +", gender:" +a3.getGender());
+    }
+}
